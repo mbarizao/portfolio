@@ -24,11 +24,28 @@
 <body class="header" role="banner">
 
   <header id="top">
+    <img id="menu_icon" class="menu_icon" src="images/menu.svg"/>
+    <div class="nav_mobile">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" >&times;</a>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">Trabalhos</a></li>
+            <li class="nav__item"><a href="index.html#clients" class="nav__link">Habilidades</a></li>
+            <li class="nav__item"><a href="interview.html" class="nav__link">Entrevistas</a></li>
+            <li class="nav__item">
+              <a href="index.html#about" class="nav__link">Sobre mim</a>
+            </li>
+            <li class="nav__item">
+              <a href="index.html#contact" class="nav__link">Contato</a>
+            </li>
+      </div>
+    </div>
+    <div id="nav_desktop">
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="index.html#work" class="nav__link">Trabalhos</a></li>
           <li class="nav__item"><a href="index.html#clients" class="nav__link">Habilidades</a></li>
+          <li class="nav__item"><a href="interview.html" class="nav__link">Entrevistas</a></li>
           <li class="nav__item">
             <a href="index.html#about" class="nav__link">Sobre mim</a>
           </li>
@@ -38,18 +55,20 @@
         </ul>
       </nav>
     </div>
+    </div>
   </header>
 
   <main role="main">
     <section class="client" id="clients">
       <div class="row">
-        <h2>Entrevistas</h2>
+        <h2 style="display: flex;  flex-direction: column;
+        align-items: flex-start; ">Entrevistas</h2>
         <div class="col">
           <div class="space">
             <a class="collapsible link__text">Seeduc</a>
             <div class="content">
               <img src="./images/interview1.png" />
-              <p style="margin-left: 10px; margin-right: 10px;">O estudante Marllon Barizão, recém-formado do Ensino
+              <p style="text-align: left; margin-left: 10px; margin-right: 10px; ">O estudante Marllon Barizão, recém-formado do Ensino
                 Médio do Colégio Estadual Conde de Nova Friburgo, em Cantagalo, desenvolveu um aplicativo para atender e
                 integrar alunos e professores dessa unidade escolar. A ideia inicial dele era criar uma ferramenta que
                 estimulasse a leitura e funcionasse como uma biblioteca virtual, com espaço para postagens sugerindo
@@ -88,7 +107,7 @@
 
                 – Já tenho uma nova ideia para jogos, mas, por enquanto, é segredo –, brinca.
               </p>
-              <p style="margin-left: 10px; margin-right: 10px;"><a href="https://www.seeduc.rj.gov.br/not%C3%ADcias" target="_blank" class="link__text">
+              <p style="text-align: left; margin-left: 10px; margin-right: 10px;"><a href="https://www.seeduc.rj.gov.br/not%C3%ADcias" target="_blank" class="link__text">
                 www.seeduc.rj.gov.br [06/04/2021]<span>&rarr;</span>
               </a></p>
             </div>
@@ -97,7 +116,7 @@
             <a class="collapsible link__text">SerraNews</a>
             <div class="content">
               <img src="./images/interview2.png" style="width: 100%;" />
-              <p style="margin-left: 10px; margin-right: 10px;">
+              <p style="text-align: left; margin-left: 10px; margin-right: 10px;">
                 O aluno Marllon Barizão, do distrito de Euclidelândia, em Cantagalo, na Região Serrana do Rio,
                 desenvolveu um app pedagógico que ajuda professores do Colégio Estadual Conde de Nova Friburgo na
                 educação dos alunos e auxilia no novo modelo de ensino do Estado.
@@ -114,7 +133,7 @@
                 trabalho na escola, é comemorada pelos professores e diretora. “O aplicativo representa uma maneira de
                 interação entre escola, alunos e responsáveis, mais um meio tecnológico que soma conhecimentos” – contou
                 a Leandra.
-                <p style="margin-left: 10px; margin-right: 10px;"><a href="https://www.serranewsrj.com.br/2021/03/aluno-de-cantagalo-desenvolve-app-pedagogico-que-ajuda-professores.html" target="_blank" class="link__text">
+                <p style="text-align: left;margin-left: 10px; margin-right: 10px;"><a href="https://www.serranewsrj.com.br/2021/03/aluno-de-cantagalo-desenvolve-app-pedagogico-que-ajuda-professores.html" target="_blank" class="link__text">
                   www.serranewsrj.com.br [31/03/2021]<span>&rarr;</span>
                 </a></p>
               </p>
@@ -159,6 +178,11 @@
   <a href="#top" class="back-to-top" title="Back to Top">
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
   </a>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
   <script src="./index.js"></script>
 </body>
 
