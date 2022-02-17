@@ -72,7 +72,7 @@ body {
     font-weight: 400;
     color: var(--white-1);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    background: linear-gradient(rgba(0,0,0, 1), rgba(0,0,0, .9));
     overflow-x: hidden;
 }
 
@@ -517,7 +517,7 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
+    background: linear-gradient(to bottom, rgba(0,0,0, .1), rgba(0,0,0, 1)), 
         url('./src/images/header.jpg');
     height: 100vh;
     background-size: cover;
