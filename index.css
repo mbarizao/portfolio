@@ -372,8 +372,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .menu_icon {
     display: none;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 1rem;
     width: 4rem;
     height: 4rem;
 }
@@ -518,7 +517,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./src/images/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
