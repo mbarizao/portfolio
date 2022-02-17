@@ -555,7 +555,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .work__box {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    
 }
 
 @media(max-width: 900px) {
