@@ -81,10 +81,5 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 
-while(true) {
-   setTimeout(function(){
-     $("#tanim").removeClass("typing").addClass("typing");
-  }, 3000);
-}
 
 
