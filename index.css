@@ -205,8 +205,9 @@ p {
 
 
 .typing {
-  width: 22ch;
+  width: 100%;
   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  animation-iteration-count: infinite;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
