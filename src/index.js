@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'styles/default.css';
-import 'styles/global.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';

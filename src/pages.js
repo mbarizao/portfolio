@@ -6,11 +6,11 @@ import Theme from 'styles/theme';
 
 // Pages
 import Home from 'pages/home';
-import Interviews from 'pages/interviews';
 
 const Pages = () => {
     const [theme, setTheme] = useState(Theme.get());
 
+    // Toogle theme on click
     const toggleTheme = () => {
         Theme.set(Theme.getName() === 'light' ? 'dark' : 'light');
         setTheme(Theme.get());
@@ -20,7 +20,6 @@ const Pages = () => {
         <ThemeProvider theme={theme}>
             <Routes>
                 <Route path='/' element={<Home toggleTheme={toggleTheme} />} />
-                <Route path='/entrevistas' element={<Interviews toggleTheme={toggleTheme}/>} />
             </Routes>
         </ThemeProvider>
     );

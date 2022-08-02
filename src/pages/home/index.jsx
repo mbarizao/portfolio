@@ -15,7 +15,6 @@ const Home = ({ theme, toggleTheme }) => {
   const [certifications, setCertifications] = useState({});
   const [experiences, setExperiences] = useState({});
   const [drawerVisibility, setDrawerVisibility] = useState(false);
-  const [changeTheme,] = useState(Theme.getName());
 
   const headerLottie = {
     loop: true,
@@ -62,7 +61,6 @@ const Home = ({ theme, toggleTheme }) => {
           <a href="#skills">Habilidades</a>
           <a href="#certifications">Certificações</a>
           <a href="#experiences">Experiências</a>
-          <a href="/entrevistas">Entrevistas</a>
           <a href="#contact">Contato</a>
           <span href="#">
             {
@@ -84,7 +82,6 @@ const Home = ({ theme, toggleTheme }) => {
           <Drawer.Item onClick={toggleDrawer} href={'/#skills'}>Habilidades</Drawer.Item>
           <Drawer.Item onClick={toggleDrawer} href={'/#certifications'}>Certificações</Drawer.Item>
           <Drawer.Item onClick={toggleDrawer} href={'/#experiences'}>Experiências</Drawer.Item>
-          <Drawer.Item onClick={toggleDrawer} href={'/entrevistas'}>Entrevistas</Drawer.Item>
           <Drawer.Item onClick={toggleDrawer} href={'/#contact'}>Contato</Drawer.Item>
           <Drawer.Item href={'#'}>
             {
