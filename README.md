@@ -6,7 +6,7 @@ O mesmo poderá ser editado/publicado/comercializado sem nenhuma restrição.
 
 ## Instalação
 
-1º Vá até o caminho '/src/services/firebaseConfig.js' e cole suas configurações de conexão com o Firebase.
+1º Vá até o caminho `/src/services/firebaseConfig.js` e cole suas configurações de conexão com o Firebase.
 
 2º Execute no terminal:
 ```
