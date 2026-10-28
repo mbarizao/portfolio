@@ -1,0 +1,43 @@
+# agents.txt — Marllon Barizão
+# Declaração mínima de capacidades para agentes de IA.
+# Site estático: sem API, login ou ferramentas invocáveis.
+
+version: 1
+site: https://marllonbarizao.com.br
+name: Marllon Barizão
+contact: contato@marllonbarizao.com.br
+
+# O que agentes podem fazer
+capabilities:
+  - read-content
+  - cite-with-attribution
+  - follow-links
+
+# O que não existe neste site
+unavailable:
+  - api
+  - mcp
+  - authentication
+  - payments
+  - write-actions
+
+# Pontos de descoberta
+discovery:
+  robots: https://marllonbarizao.comrobots.txt
+  sitemap: https://marllonbarizao.comsitemap.xml
+  llms: https://marllonbarizao.comllms.txt
+  markdown: https://marllonbarizao.comindex.md
+  home: https://marllonbarizao.com
+
+# Preferências de uso
+policy:
+  search: yes
+  ai-input: yes
+  ai-train: no
+  attribution: required
+
+# Contato humano
+links:
+  - https://github.com/mbarizao
+  - https://www.linkedin.com/in/marllonbarizao
+  - https://attivus.one

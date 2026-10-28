@@ -1,0 +1,11 @@
+{
+  "name": "marllon-barizao",
+  "private": true,
+  "description": "Portfólio — Marllon Barizão",
+  "scripts": {
+    "start": "npx --yes serve public -l 8000",
+    "serve": "npx --yes serve public -l 8000",
+    "emulate": "firebase emulators:start --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  }
+}

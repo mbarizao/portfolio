@@ -1,0 +1,29 @@
+# Marllon Barizão
+
+> Especialista em software, infraestrutura e IA aplicada. Fundador técnico da Attivus One (CRM, WhatsApp e IA; parceira oficial da Meta). Base em Cantagalo, Rio de Janeiro.
+
+Site pessoal estático. Conteúdo canônico na homepage HTML; versão Markdown em `/index.md`. Preferências de crawlers em `/robots.txt`. Capacidades para agentes em `/agents.txt`.
+
+## Páginas
+
+- [Home](https://marllonbarizao.com): perfil e posicionamento
+- [Home (Markdown)](https://marllonbarizao.comindex.md): espelho legível por agentes
+- [llms.txt](https://marllonbarizao.comllms.txt): este arquivo
+- [agents.txt](https://marllonbarizao.comagents.txt): declaração de capacidades para agentes
+- [Sitemap](https://marllonbarizao.comsitemap.xml): inventário de URLs
+
+## Projetos
+
+- [Attivus One](https://attivus.one): plataforma de CRM, WhatsApp e IA
+
+## Foco técnico
+
+- Agentes de IA, MCP, RAG e harnesses
+- Infraestrutura para rodar IA em produção
+- Modelos locais e sistemas aplicados
+
+## Contato
+
+- [E-mail](mailto:contato@marllonbarizao.com.br)
+- [GitHub](https://github.com/mbarizao)
+- [LinkedIn](https://www.linkedin.com/in/marllonbarizao)

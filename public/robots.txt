@@ -1,0 +1,15 @@
+# https://marllonbarizao.comrobots.txt
+# Preferências de rastreamento e uso por agentes / buscadores.
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /agents.txt
+Allow: /sitemap.xml
+Allow: /index.md
+Allow: /assets/
+
+# Busca e grounding liberados; treinamento de modelo sob opt-out.
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+Sitemap: https://marllonbarizao.comsitemap.xml
